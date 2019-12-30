@@ -1,15 +1,9 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import Character from '../modules/character'
 
 Vue.use(Vuex);
 
-export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
-  modules: {
-  }
-})
+export default {
+  Character
+};
