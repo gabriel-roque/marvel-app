@@ -69,10 +69,8 @@
             })
         },
 
-        watch: {
-            hero(hero) {
-                this.searchComics(hero.id)
-            }
+        mounted() {
+            this.searchComics(this.hero.id)
         }
 
     }

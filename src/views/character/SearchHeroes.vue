@@ -13,6 +13,7 @@
         </v-row>
       </v-container>
     </v-content>
+    <alert/>
   </v-app>
 
 </template>
@@ -20,10 +21,11 @@
 <script>
     import FormSearch from "@/components/character/formSearch";
     import AppBar from "@/components/core/appBar";
+    import Alert from "@/components/core/alert";
 
     export default {
         name: 'SearchHeroes',
-        components: {AppBar, FormSearch},
+        components: {Alert, AppBar, FormSearch},
     }
 </script>
 

@@ -1,4 +1,8 @@
 export default {
     hero: '',
-    comics: ''
+    comics: '',
+    alert: {
+        status: false,
+        msg: ''
+    }
 };

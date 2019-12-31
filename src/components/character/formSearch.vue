@@ -35,7 +35,7 @@
 </template>
 
 <script>
-    import {mapActions} from 'vuex'
+    import {mapActions, mapGetters} from 'vuex'
 
     export default {
         name: "formSearch",
@@ -44,26 +44,30 @@
             name: '',
             height: 100,
         }),
+
+        computed: {
+            ...mapGetters({
+                hero: 'character/hero',
+            }),
+        },
+
         methods: {
             ...mapActions({
                 search: 'character/searchHero'
             }),
 
             searchHero() {
-                if (this.name) {
-                    this.search(this.name);
-                    this.$router.push({name: 'heroes.profile'})
-                } else {
-                    // todo snackbar with alert empty hero name
-                }
-
+                if (this.name) this.search(this.name);
             }
+        },
+        watch: {
+          hero(newHere) {
+              if(newHere !== '') this.$router.push({name: 'heroes.profile'});
+          }
         },
 
         mounted() {
-            if (window.innerWidth >= 200 && window.innerWidth <= 500) {
-                this.height = 30
-            }
+            if (window.innerWidth >= 200 && window.innerWidth <= 500) this.height = 30
         }
     }
 

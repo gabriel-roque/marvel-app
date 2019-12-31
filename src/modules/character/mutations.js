@@ -6,5 +6,9 @@ export const mutations = {
     },
     [types.STORE_COMICS](state, comics) {
         state.comics = comics
+    },
+    [types.ALERT](state, msg) {
+        state.alert.status = true;
+        state.alert.msg = msg
     }
 };
