@@ -1,6 +1,6 @@
 import axios from 'axios';
 import crypto from "crypto";
-import { KEY, ENDPOINT } from "../configs/marvelapp";
+import { KEY, ENDPOINT } from "@/configs/marvelapp";
 
 const PRIVATE_KEY = KEY.API_PRIVATE_KEY;
 const PUBLIC_KEY = KEY.API_PUBLIC_KEY;
