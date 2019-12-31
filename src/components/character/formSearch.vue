@@ -9,7 +9,7 @@
         </p>
 
         <v-col
-            xl="10" lg="9" md="9" sm="10"
+            xl="10" lg="9" md="9" sm="10" cols="9"
         >
           <v-text-field
               placeholder="ex: hulk, thor, iron man..."
