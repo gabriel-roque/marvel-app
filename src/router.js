@@ -1,17 +1,29 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./components/Home";
+import Welcome from "./views/Welcome";
+import SearchHeroes from "./views/character/SearchHeroes";
+import ProfileHero from "./views/character/ProfileHero";
 
 Vue.use(Router);
 
 const routesObject = [
     {
         path: "/",
-        component: Home,
+        name: 'welcome',
+        component: Welcome,
         props: true,
-        meta: {
-            title: "home"
-        }
+    },
+    {
+        path: "/heroes",
+        name: 'heroes.search',
+        component: SearchHeroes,
+        props: true,
+    },
+    {
+        path: "/heroes/profile",
+        name: 'heroes.profile',
+        component: ProfileHero,
+        props: true,
     },
 ];
 
