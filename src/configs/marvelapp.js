@@ -1,6 +1,7 @@
 
 const ENDPOINT = {
-    CHARACTER: 'https://gateway.marvel.com:443/v1/public/characters'
+    CHARACTER: 'https://gateway.marvel.com:443/v1/public/characters',
+    COMIC: 'https://gateway.marvel.com:443/v1/public/characters'
 };
 
 const KEY = {
