@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import Character from '../modules/character'
+
+import character from '@/modules/character'
 
 Vue.use(Vuex);
 
-export default {
-  Character
-};
+export default new Vuex.Store({
+  modules: {
+    character
+  },
+  strict: true
+});
