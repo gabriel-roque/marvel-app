@@ -43,6 +43,7 @@
           </v-col>
         </v-row>
       </v-card>
+      <back-top/>
     </v-container>
   </v-content>
 
@@ -52,10 +53,11 @@
     import {mapGetters, mapActions} from "vuex";
     import CardComic from "@/components/character/cardComic";
     import AppBar from "@/components/core/appBar";
+    import BackTop from "../../components/core/backTop";
 
     export default {
         name: "ProfileHero",
-        components: {AppBar, CardComic},
+        components: {BackTop, AppBar, CardComic},
         computed: {
             ...mapGetters({
                 hero: 'character/hero',
