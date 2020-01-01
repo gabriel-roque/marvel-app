@@ -5,7 +5,7 @@
       justify="center"
       align="center"
   >
-    <v-col cols="1" >
+    <v-col cols="1">
       <div class="breeding-rhombus-spinner">
         <div class="rhombus child-1"></div>
         <div class="rhombus child-2"></div>
