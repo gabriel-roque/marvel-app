@@ -13,7 +13,7 @@
 
 | Web           | Mobile        |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+|  <img src="https://github.com/gabriel-roque/marvel-app/blob/master/src/assets/gifs/web.gif"> | <img src="https://github.com/gabriel-roque/marvel-app/blob/master/src/assets/gifs/mobile.gif" height="400">  |
 
 ## 🚀 Install
 
