@@ -11,7 +11,9 @@
 
 ## 🖼 Previews
 
-<img src="#">
+| Web           | Mobile        |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
 
 ## 🚀 Install
 
