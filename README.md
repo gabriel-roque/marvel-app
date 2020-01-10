@@ -4,8 +4,10 @@
 </p>
 
 <p>
+  <img alt="Version" src="https://api.netlify.com/api/v1/badges/daa399a9-504f-4fb7-bd08-d229f4a276e8/deploy-status" />
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
+
 
 > Vue App used web service marvel API
 
